@@ -2,15 +2,13 @@ from __future__ import annotations
 
 from django.contrib import admin
 
-from .models import (
-    Event,
-    Question,
-    Session,
-    SessionMembership,
-    Survey,
-    UserQuestionResponse,
-    UserSurveyResponse,
-)
+from .models import Event
+from .models import Question
+from .models import Session
+from .models import SessionMembership
+from .models import Survey
+from .models import UserQuestionResponse
+from .models import UserSurveyResponse
 
 
 @admin.register(Event)
